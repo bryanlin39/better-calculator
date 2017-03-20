@@ -34,9 +34,17 @@
 //
 // alert(divide(number1, number2));
 //
-var height = parseInt(prompt("Enter your height in inches"));
-var weight = parseInt(prompt("Enter your weight in pounds"));
-weight=weight*.45
-height = Math.pow((height*.025), 2);
-var bmi = weight/height
-alert(bmi)
+// var height = parseInt(prompt("Enter your height in inches"));
+// var weight = parseInt(prompt("Enter your weight in pounds"));
+// weight=weight*.45;
+// height = Math.pow((height*.025), 2);
+// var bmi = weight/height;
+// alert(bmi);
+
+var Celcius= parseInt(prompt("Enter a temperature in Celcius"));
+Farenheit= Celcius*9/5 + 32;
+alert(Farenheit)
+
+var Farenheit= parseInt(prompt("Enter a temperature in Farenheit"));
+Celcius= (Farenheit - 32) * 5/9
+alert(Celcius)
